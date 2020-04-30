@@ -34,8 +34,7 @@ jsproxy_config({
     },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
-      label: '',
-      hidden: true,
+      label: 'cfworker',
       lines: {
         // 收费版（高权重）
         'crimson-rain-7b7c.fjhhz1997.workers.dev': 4,
